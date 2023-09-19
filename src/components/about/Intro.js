@@ -6,12 +6,12 @@ const Intro = () => {
         <img className="min-w-full" src="assets/img/slider/1.jpg" alt="image" />
       </div>
       <div className="about_title w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[20px] mb-[30px]">
-        <h3 className="text-[22px] font-bold">Adriano Smith</h3>
+        <h3 className="text-[22px] font-bold">Vishal Sakaria</h3>
         <span>Web Developer</span>
       </div>
       <div className="about_text w-full h-auto clear-both float-left border-solid border-[#DFDFDF] border-b pb-[31px] mb-[30px]">
         <p className="mb-[11px]">
-          Hi, my name is Adriano Smith and I began using WordPress when it first
+          Hi, my name is Vishal Sakaria and I began using WordPress when it first
           began. I’ve spent most of my waking hours for the last ten years
           designing, programming and operating WordPress sites.
         </p>
