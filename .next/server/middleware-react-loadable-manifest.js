@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"../src/layout/Layout.js -> components/Portfolio":{"id":"../src/layout/Layout.js -> components/Portfolio","files":["static/chunks/src_components_Portfolio_js.js"]},"index.js -> components/Portfolio":{"id":"index.js -> components/Portfolio","files":["static/chunks/src_components_Portfolio_js.js"]}}
