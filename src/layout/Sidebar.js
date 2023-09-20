@@ -42,16 +42,10 @@ const Sidebar = () => {
         </div>
         <div className="copyright w-full float-left">
           <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-            © {new Date().getFullYear()} Tokyo
+            © {new Date().getFullYear()} Vishal Sakaria. All Rights Reserved.
             <br />
-            Created by{" "}
-            <a
-              className="text-[#787878] font-medium transition-all duration-300 hover:text-black"
-              href="https://themeforest.net/user/Codeefly"
-              target="_blank"
-            >
-              Codeefly
-            </a>
+            Made with ❤️ by Vishal Sakaria
+
           </p>
         </div>
       </div>
