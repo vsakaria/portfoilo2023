@@ -9,7 +9,7 @@ const Sidebar = () => {
         <div className="logo" data-type="image">
           {" "}
           {/* You can use image or text as logo. data-type values are: "image" and "text" */}
-          <a href="#">
+          {/* <a href="#">
             <img
               className="max-w-[150px]"
               src="assets/img/logo/dark.png"
@@ -18,7 +18,7 @@ const Sidebar = () => {
             <h3 className="font-poppins font-black text-[31px] tracking-[5px]">
               TOKYO
             </h3>
-          </a>
+          </a> */}
         </div>
         <div className="menu px-[0px] py-[50px] w-full float-left">
           <ul className="transition_link m-0 list-none">
@@ -42,9 +42,8 @@ const Sidebar = () => {
         </div>
         <div className="copyright w-full float-left">
           <p className="text-[15px] text-[#999] font-montserrat leading-[25px]">
-            © {new Date().getFullYear()} Vishal Sakaria. All Rights Reserved.
-            <br />
-            Made with ❤️ by Vishal Sakaria
+
+            Made with ❤️
 
           </p>
         </div>

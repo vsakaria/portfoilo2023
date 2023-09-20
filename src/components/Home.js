@@ -2,23 +2,21 @@ import SectionContainer from "./SectionContainer";
 const socialIcon = [
   {
     id: 1,
-    iconName: "icon-facebook-squared",
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: 2,
-    iconName: "icon-twitter-squared",
-    link: "https://twitter.com/",
+    iconName: "icon-github-circled-1",
+    link: "https://www.github.com/vsakaria",
+    text: "Github",
   },
   {
     id: 3,
-    iconName: "icon-behance-squared",
-    link: "https://www.behance.net/",
+    iconName: "icon-github-circled-1",
+    link: "https://gist.github.com/vsakaria",
+    text: "Gist",
   },
   {
-    id: 4,
-    iconName: "icon-linkedin-squared",
-    link: "https://www.linkedin.com/",
+    id: 2,
+    iconName: "icon-linkedin-circled",
+    link: "https://www.linkedin.com/in/vishal-sakaria-0aa94b40/",
+    text: "Linkedin",
   },
 ];
 const Home = () => {
@@ -44,17 +42,17 @@ const Home = () => {
                 Vishal <span>Sakaria</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-                I am a WordPress Developer at heart and create features that are
-                best suited for the job at hand.
+              A Solutions Architect with a creative edge, seamlessly merging technical acumen with user-centric design, and a proven ability to lead dynamic teams.
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
-                  {socialIcon.map((item) => (
+                  {socialIcon.sort((a, b) => a.id - b.id).map((item) => (
                     <li className="mr-[8px] inline-block" key={item.id}>
                       <a
                         className="text-black text-[20px] transition-all duration-300 hover:text-black"
                         href={item.link}
                         target="_blank"
+                        title={item.text}
                       >
                         <i className={item.iconName} />
                       </a>
