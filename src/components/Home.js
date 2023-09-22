@@ -42,7 +42,7 @@ const Home = () => {
                 Vishal <span>Sakaria</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-              A Solutions Architect with a creative edge, seamlessly merging technical acumen with user-centric design, and a proven ability to lead dynamic teams.
+              A Solutions Architect with a creative edge, merging technical acumen with user-centric design, and the ability to lead dynamic teams.
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
