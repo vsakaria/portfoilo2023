@@ -12,8 +12,12 @@ const Contact = () => {
               <SectionTitle pageName={"Contact"} title={"Get in Touch"} />
             </div>
           </div>
-          <Map />
-          <ContactForm />
+          <div className="text-[20px] mb-[20px]">
+            <p>Email: vsakaria@gmail.com</p>
+            <p>Phone: 07930110405</p>
+          </div>
+          {/* <Map /> */}
+          {/* <ContactForm /> */}
         </div>
       </div>
     </SectionContainer>
