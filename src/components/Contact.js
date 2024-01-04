@@ -15,6 +15,7 @@ const Contact = () => {
           <div className="text-[20px] mb-[20px]">
             <p>Email: vsakaria@gmail.com</p>
             <p>Phone: 07930110405</p>
+            <a href="/CV.pdf" target="_blank">Read my CV</a>
           </div>
           {/* <Map /> */}
           {/* <ContactForm /> */}
