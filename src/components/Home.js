@@ -43,8 +43,7 @@ const Home = () => {
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
               <p>
-                Sotware solutions architect with a creative edge, merging technical acumen with speedy time saving workflows. Ability to lead dynamic teams.
-                <br/><br />Currently creating products to improve creativity and productivity within the educational space.
+              Innovative software solutions architect with a flair for creativity, blending technical expertise with efficient, time-saving workflows. Skilled at leading dynamic teams and currently developing products to enhance creativity and productivity in the educational sector.
               </p>
               </p>
               <div className="social w-full float-left">
