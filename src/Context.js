@@ -35,8 +35,8 @@ const initialState = {
 		// { id: 2, name: "about", href: "about" },
 		// { id: 3, name: "service", href: "service" },
 		// { id: 4, name: "portfolio", href: "portfolio" },
-		{ id: 3, name: 'certification and c.v', href: 'certification' },
-		{ id: 4, name: 'contact', href: 'contact' },
+		{ id: 3, name: 'certification', href: 'certification' },
+		{ id: 4, name: 'contact & c.v', href: 'contact' },
 	],
 };
 
