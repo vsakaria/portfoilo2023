@@ -43,8 +43,8 @@ const Home = () => {
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
               <p>
-              Innovative software solutions architect with a flair for creativity, blending technical expertise with efficient, time-saving workflows. Skilled at leading dynamic teams and currently developing products to enhance creativity and productivity in the educational sector.
-              </p>
+Presentation, innovation and relations are my passion, which along with deep technical knowledge and an understanding of business, makes me uniquely positioned to impact your team.
+                  </p>
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
