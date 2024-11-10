@@ -43,7 +43,7 @@ const Home = () => {
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
               <p>
-Presentation, innovation and relations are my passion, which along with deep technical knowledge and an understanding of business, makes me uniquely positioned to impact your team.
+              With over 11 years of JS experience tackling complex problems is second nature to me. Along with 10 year experience in teaching, I hold deep mentorship expertise as well and an ability to explain complex problem in simple language.
                   </p>
               </p>
               <div className="social w-full float-left">
