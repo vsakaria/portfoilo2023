@@ -45,7 +45,6 @@ const Home = () => {
               <p>
               I’m a product engineer with over 12 years of front-end experience and a deep passion for business and solving real user problems. I listen closely to customers, uncover what truly matters, and shape products that deliver meaningful value. I combine strong UX design instincts with a sharp focus on product-market fit building clean, thoughtful interfaces that align with real needs, not just features.              </p>
 
-                  </p>
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
