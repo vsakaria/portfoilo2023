@@ -43,7 +43,8 @@ const Home = () => {
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
               <p>
-              With over 11 years of JS experience tackling complex problems is second nature to me. Along with 10 year experience in teaching, I hold deep mentorship expertise as well and an ability to explain complex problem in simple language.
+              I’m a product engineer with over 12 years of front-end experience and a deep passion for business and solving real user problems. I listen closely to customers, uncover what truly matters, and shape products that deliver meaningful value. I combine strong UX design instincts with a sharp focus on product-market fit building clean, thoughtful interfaces that align with real needs, not just features.              </p>
+
                   </p>
               </p>
               <div className="social w-full float-left">
