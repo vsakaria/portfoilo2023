@@ -26,6 +26,15 @@ const Talks = () => {
 						></iframe>
 					</div>
 
+					<div className="tokyo_tm_title w-full h-auto clear-both float-left mb-[62px]">
+						<div className="title_flex w-full h-auto clear-both flex justify-between items-end">
+							<SectionTitle
+								pageName={'Talks'}
+								title={'A playlist of examples of training and demoing '}
+							/>
+						</div>
+					</div>
+
 					<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
 						<iframe src="https://www.youtube.com/embed/videoseries?list=PLotJoO1xG1VyhADicIv5UoaCRBAeRy4U1" 
 							style="position:absolute;top:0;left:0;width:100%;height:100%;" 
