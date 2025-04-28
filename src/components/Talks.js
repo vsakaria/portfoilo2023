@@ -33,7 +33,7 @@ const Talks = () => {
 						<div className="title_flex w-full h-auto clear-both flex justify-between items-end">
 							<SectionTitle
 								pageName={'Talks'}
-								title={'A playlist of examples of training and demoing, click on YouTube the icon to view the playlist'}
+								title={'A playlist of examples of training and demoing, click on playlist icon top right'}
 							/>
 						</div>
 					</div>
