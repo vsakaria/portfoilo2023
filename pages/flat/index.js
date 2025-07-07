@@ -11,6 +11,9 @@ const Flat = () => {
     'abd0531a-921c-4f34-ada7-f31a6a6fe474.jpeg',
     '7793367d-ea40-4328-b7de-b3b07b31814c.jpeg',
     '988337ab-3da9-40f1-9882-fd29e79920ed.jpeg',
+    '483eee91-7d6c-4907-a991-b6ff2edac000.jpeg',
+    '473ee496-3fbe-4359-b405-d97cc6c151db.jpeg',
+    
    
     'f43a3e42-dc1e-416c-812d-4a1f07dc40c6.jpeg',
     'edd34c54-97f8-42c5-95ab-b5435894a215.jpeg',
@@ -28,8 +31,6 @@ const Flat = () => {
     '3478aaa3-5d90-49c0-ba56-05ad7b870397.jpeg',
     '689baeed-4cf1-48ca-a701-19e7af1035aa.jpeg',
     '680ff086-a369-42a2-88e0-fc26fd41aba0.jpeg',
-    '483eee91-7d6c-4907-a991-b6ff2edac000.jpeg',
-    '473ee496-3fbe-4359-b405-d97cc6c151db.jpeg',
     '386eebf8-882c-41f4-aad4-3d81be11ead4.jpeg',
     '215fb0f5-f94a-4879-aebf-9b1c3fa21d60.jpeg',
     '67df40f9-697c-4a52-b3c3-5411950819f7.jpeg',
