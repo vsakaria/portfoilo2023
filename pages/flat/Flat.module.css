@@ -31,7 +31,6 @@
 .image {
   width: 100%;
   height: auto;
-  border-radius: 8px;
   object-fit: cover;
   aspect-ratio: 4/3;
 }
@@ -43,7 +42,6 @@
   background-color: rgba(0, 0, 0, 0.7);
   color: white;
   padding: 5px 10px;
-  border-radius: 4px;
   font-family: Tahoma, sans-serif;
   font-size: 14px;
 } 

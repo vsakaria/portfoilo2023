@@ -1,15 +1,12 @@
 import { Fragment } from 'react';
+import Image from 'next/image';
 import styles from './Flat.module.css';
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || '';
 
 const Flat = () => {
   const imageNames = [
-    'IMG_5514.jpeg',
-    'IMG_5513.jpeg',
-    'IMG_5512.jpeg',
-    'IMG_5511.jpeg',
-    'IMG_2233.jpeg',
+   
     'f43a3e42-dc1e-416c-812d-4a1f07dc40c6.jpeg',
     'edd34c54-97f8-42c5-95ab-b5435894a215.jpeg',
     'eda64cb9-dc79-4112-93a1-f14f2a16a934.jpeg',
@@ -45,26 +42,36 @@ const Flat = () => {
     '4d4176d7-68d0-4d1a-b46a-7dea3a441ca8.jpeg',
     '4b49021f-4fe0-4515-b37a-93c8b04acea4.jpeg',
     '4ab54e35-7499-4e61-904a-91c9b72c2de1.jpeg',
-    '0b8b0045-9f14-4a3d-a137-fb3c85e498e2.jpeg'
+    '0b8b0045-9f14-4a3d-a137-fb3c85e498e2.jpeg',
+    'IMG_5514.jpeg',
+    'IMG_5513.jpeg',
+    'IMG_5512.jpeg',
+    'IMG_5511.jpeg',
+    'IMG_2233.jpeg',
   ];
 
-  const images = imageNames.map(name => `${BASE_URL}/assets/IMG/flat/${name}`);
+  const images = imageNames.map(name => `${BASE_URL}/assets/img/flat/${name}`);
 
   return (
     <div className="min-h-screen bg-gray-100 p-4">
-      <h1 className={styles.heading}>Beautiful flat, two minutes from Wills and Green station</h1>
+      <h1 className={styles.heading}>Beautiful 2 <br /> bedroom flat <br /> 2 minutes from Willesden Green station</h1>
+      <h2 className={styles.subheading}>Call Whatsapp Vishal on 07930 110 405</h2>
       
       <div className={styles.imageGrid}>
         {images.map((image, index) => (
           <div key={index} className={styles.imageContainer}>
-            <img
+            <Image
               src={image}
               alt={`Flat interior view ${index + 1}`}
               className={styles.image}
+              width={800}
+              height={600}
+              priority={index < 4} // Load first 4 images immediately
             />
             <div className={styles.imageNumber}>{index + 1}</div>
           </div>
         ))}
+        <h2 className={styles.subheading}>This is a two-bedroom flat. The second bedroom photos are coming soon. </h2>
       </div>
     </div>
   );
