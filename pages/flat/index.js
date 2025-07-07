@@ -48,7 +48,7 @@ const Flat = () => {
 
   return (
     <div className="min-h-screen bg-gray-100 p-4">
-      <h1 className={styles.heading}>Beautiful flat, two minutes from Wills and Green station</h1>
+      <h1 className={styles.heading}>Beautiful flat<br/> 2 bedroom <br/> 2 minutes from Willesden Green station</h1>
       <h2 className={styles.subheading}>Call - Whatsapp 
         <br/>Vishal on 07930110405 </h2>
       <div className={styles.imageGrid}>
