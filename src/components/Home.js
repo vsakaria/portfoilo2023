@@ -42,7 +42,8 @@ const Home = () => {
                 Vishal <span>Sakaria</span>
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
-              <p>
+              
+
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
