@@ -43,8 +43,6 @@ const Home = () => {
               </h3>
               <p className="job font-montserrat font-medium max-w-[450px] mb-[25px]">
               <p>
-              I’m a product engineer with over 12 years of front-end experience and a deep passion for business and solving real user problems. I listen closely to customers, uncover what truly matters, and shape products that deliver meaningful value. I combine strong UX design instincts with a sharp focus on product-market fit building clean, thoughtful interfaces that align with real needs, not just features. Oh and I love to do talks based on storytelling. </p>
-
               </p>
               <div className="social w-full float-left">
                 <ul className="m-0 list-none">
