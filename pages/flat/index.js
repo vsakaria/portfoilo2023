@@ -1,5 +1,6 @@
 import { Fragment } from 'react';
 import Image from 'next/image';
+import Head from 'next/head';
 import styles from './Flat.module.css';
 
 const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || '';
@@ -55,27 +56,48 @@ const Flat = () => {
   const images = imageNames.map(name => `${BASE_URL}/assets/img/flat/${name}`);
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4">
-      <h1 className={styles.heading}>Beautiful 2 <br /> bedroom flat <br /> 2 minutes from Willesden Green station</h1>
-      <h2 className={styles.subheading}>Call Whatsapp Vishal on 07930 110 405</h2>
-      
-      <div className={styles.imageGrid}>
-        {images.map((image, index) => (
-          <div key={index} className={styles.imageContainer}>
-            <Image
-              src={image}
-              alt={`Flat interior view ${index + 1}`}
-              className={styles.image}
-              width={800}
-              height={600}
-              priority={index < 4} // Load first 4 images immediately
-            />
-            <div className={styles.imageNumber}>{index + 1}</div>
-          </div>
-        ))}
-        <h2 className={styles.subheading}>This is a two-bedroom flat. The second bedroom photos are coming soon. </h2>
+    <>
+      <Head>
+        <title>Beautiful flat near Wills and Green station</title>
+        <meta property="og:title" content="Beautiful flat near Willseden Green station" />
+        <meta property="og:description" content="Beautiful flat, just two minutes from Willseden Green station" />
+        <meta property="og:image" content={`${BASE_URL}/assets/img/flat/b9313e56-b132-4ed2-bd0e-1b6b4c9c9023.jpeg`} />
+        <meta property="og:url" content={`${BASE_URL}/flat`} />
+        <meta property="og:type" content="website" />
+        
+        {/* WhatsApp specific */}
+        <meta property="og:image:width" content="800" />
+        <meta property="og:image:height" content="600" />
+        
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Beautiful flat near Wills and Green station" />
+        <meta name="twitter:description" content="Beautiful flat, just two minutes from Wills and Green station" />
+        <meta name="twitter:image" content={`${BASE_URL}/assets/img/flat/b9313e56-b132-4ed2-bd0e-1b6b4c9c9023.jpeg`} />
+      </Head>
+
+      <div className="min-h-screen bg-gray-100 p-4">
+        <h1 className={styles.heading}>Beautiful 2 <br /> bedroom flat <br /> 2 minutes from Willesden Green station</h1>
+        <h2 className={styles.subheading}>Call Whatsapp Vishal on 07930 110 405.</h2>
+        
+        <div className={styles.imageGrid}>
+          {images.map((image, index) => (
+            <div key={index} className={styles.imageContainer}>
+              <Image
+                src={image}
+                alt={`Flat interior view ${index + 1}`}
+                className={styles.image}
+                width={800}
+                height={600}
+                priority={index < 4} // Load first 4 images immediately
+              />
+              <div className={styles.imageNumber}>{index + 1}</div>
+            </div>
+          ))}
+          <h2 className={styles.subheading}>This is a two-bedroom flat. The second bedroom photos are coming soon. </h2>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
