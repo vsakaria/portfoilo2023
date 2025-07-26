@@ -77,7 +77,7 @@ const Flat = () => {
       </Head>
 
       <div className="min-h-screen bg-gray-100 p-4">
-        <h1 className={styles.heading}>Beautiful 2 <br /> bedroom flat <br /> 2 minutes from Willesden Green station</h1>
+        <h1 className={styles.heading}>Beautiful flat <br />1 room for rent <br /> 2 minutes from Willesden Green station</h1>
         <h2 className={styles.subheading}>Call Whatsapp Vishal on 07930 110 405.</h2>
         
         <div className={styles.imageGrid}>
