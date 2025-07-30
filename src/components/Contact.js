@@ -15,7 +15,7 @@ const Contact = () => {
           <div className="text-[20px] mb-[20px]">
             <p>Email: vsakaria@gmail.com</p>
             <p>Phone: 07930110405</p>
-            <a href="/CV.pdf" target="_blank">Read my CV</a>
+            <a href="https://app.enhancv.com/share/01c6c6d5/" target="_blank">Read my CV</a>
           </div>
           {/* <Map /> */}
           {/* <ContactForm /> */}
